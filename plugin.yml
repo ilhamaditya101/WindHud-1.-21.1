@@ -1,0 +1,14 @@
+name: WindHUD
+version: 1.0.0
+main: id.cataclysm.windhud.WindHUDPlugin
+api-version: '1.21'
+commands:
+  windhud:
+    description: Toggle or manage the WindHUD
+    usage: /windhud [toggle|on|off|reload]
+    aliases: [wind]
+permissions:
+  windhud.use:
+    default: true
+  windhud.admin:
+    default: op

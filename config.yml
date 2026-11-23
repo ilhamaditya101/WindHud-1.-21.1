@@ -1,0 +1,12 @@
+# Wind direction is shared by all players and rotates every interval.
+wind:
+  change-interval-seconds: 180
+  strength-min: 0.25
+  strength-max: 1.0
+  initial-direction-degrees: 45
+
+hud:
+  update-ticks: 10
+  color: BLUE
+  title-format: '&bWIND &f{direction} &7| &b{compass} &7| &f{strength}%'
+  enabled-by-default: true
